@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forcast</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="main-div">
+		<div class="weather-app">
+			<h1 class="heading">FORCAST</h1>
+			<br>
+			<div>
+				<label for="city" style="font-weight: bold; font-size: 20px; color: lightgrey;">Enter a city name:</label>
+				<input type="text" id="cityname" required>
+				<button type="button" id="btn" onclick="fetchData()">OK</button>
+			</div>
+			<br>
+			<div class="all-data">
+				<span class="a"><b>CITY: </b><span id="city"></span></span><br>
+				<span class="a"><b>Wether: </b><span id="desc"></span></span><br>
+				<span class="a"><b>Temperature: </b><span id="temp"></span></span><br>
+				<span class="a"><b>Wind Speed: </b><span id="windspeed"></span> m/hr</span><br>
+				<span class="a"><b>Humidity: </b><span id="hum"></span> deg/cel</span><br>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

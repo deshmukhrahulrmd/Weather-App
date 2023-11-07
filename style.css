@@ -1,0 +1,83 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	
+}
+
+.main-div{
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #00B4DB;
+	background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+	background: linear-gradient(to right, #0083B0, #00B4DB);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.weather-app{
+	height: 350px;
+	width: 500px;
+	background: #373B44;
+	background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+	background: linear-gradient(to left, #4286f4, #373B44);
+	padding: 20px;
+	overflow: hidden;
+	border-radius: 30px;
+	box-shadow: 0px 0px 30px 8px #56ccf2;
+}
+
+.heading{
+	text-decoration: underline;
+	text-align: center;
+	letter-spacing: 5px;
+	padding-bottom: 10px;
+	font-size: 50px;
+	font-weight: 600;
+	background-image: linear-gradient(to left, #141e30, #243b55);
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip:text;
+}
+
+#cityname{
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.all-data{
+	color: lightgray;
+	font-size: 15px;
+	padding: 10px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+}
+
+.a b{
+	line-height: 30px;
+	font-size: 20px;
+}
+
+
+
+.btn{
+	border: none;
+	outline: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+btn:hover{
+	cursor: pointer;
+	box-shadow: 0px 0px 15px 2px black;
+}
